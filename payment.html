@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment | Premium UI</title>
+
+    <!-- GLOBAL STYLE -->
+    <link rel="stylesheet" href="global.css">
+
+    <!-- PAGE STYLE -->
+    <link rel="stylesheet" href="payment.css">
+</head>
+
+<body>
+
+    <div class="payment-container">
+
+        <div class="payment-box">
+
+            <h1 class="title">Choose Your Plan</h1>
+            <p class="subtitle">Upgrade to unlock all AI premium tools</p>
+
+            <!-- PRICING OPTIONS -->
+            <div class="plan-list">
+
+                <!-- PLAN 1 -->
+                <div class="plan-card">
+                    <h2>Basic</h2>
+                    <h3 class="price">$7 <span>/ month</span></h3>
+                    <ul>
+                        <li>AI Video Editor</li>
+                        <li>AI Photo Enhancer</li>
+                        <li>Standard Templates</li>
+                    </ul>
+                    <button class="btn-select" data-plan="Basic">Select</button>
+                </div>
+
+                <!-- PLAN 2 -->
+                <div class="plan-card premium">
+                    <div class="badge">MOST POPULAR</div>
+                    <h2>Pro</h2>
+                    <h3 class="price">$15 <span>/ month</span></h3>
+                    <ul>
+                        <li>AI Video Editor</li>
+                        <li>AI Photo Enhancer</li>
+                        <li>AI Music Generator</li>
+                        <li>Premium Templates</li>
+                    </ul>
+                    <button class="btn-select" data-plan="Pro">Select</button>
+                </div>
+
+                <!-- PLAN 3 -->
+                <div class="plan-card">
+                    <h2>Ultimate</h2>
+                    <h3 class="price">$29 <span>/ month</span></h3>
+                    <ul>
+                        <li>All AI Tools Unlocked</li>
+                        <li>Unlimited Renders</li>
+                        <li>VIP Support</li>
+                    </ul>
+                    <button class="btn-select" data-plan="Ultimate">Select</button>
+                </div>
+
+            </div>
+
+            <p class="back">
+                <a href="dashboard.html">← Back to Dashboard</a>
+            </p>
+
+        </div>
+
+    </div>
+
+    <script src="payment.js"></script>
+</body>
+</html>
