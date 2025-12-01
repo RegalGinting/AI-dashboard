@@ -1,0 +1,50 @@
+/* ===== GLOBAL STYLE PREMIUM ===== */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: linear-gradient(145deg, #0f0f10, #1c1c1e);
+    color: #fff;
+    overflow-x: hidden;
+}
+
+/* Buttons */
+.btn-primary {
+    padding: 12px 26px;
+    border: none;
+    background: linear-gradient(135deg, #4f7df3, #3358ff);
+    color: #fff;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.3s ease;
+    font-weight: 500;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(79, 125, 243, 0.4);
+}
+
+.btn-outline {
+    padding: 12px 26px;
+    background: transparent;
+    border: 1.5px solid #ffffff40;
+    border-radius: 10px;
+    font-size: 15px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: 500;
+}
+
+.btn-outline:hover {
+    background: #ffffff0f;
+}
